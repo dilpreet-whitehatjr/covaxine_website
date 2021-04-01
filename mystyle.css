@@ -1,0 +1,320 @@
+#header-img{
+    float:left;
+    
+   
+  }
+  .img2{
+    float:right;
+   
+  }
+  header{
+      overflow:hidden;
+  }
+  .heading{
+  
+    overflow:auto;
+    font-size:5em;
+    padding:0px 220px ;
+    
+     color: dodgerblue;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+  }
+ *{
+     box-sizing: border-box;
+ }
+  .menu-bar{
+      background-color: aqua;
+      text-align: center;
+    
+      margin-top: -50px;
+  }
+
+  .menu-bar ul{
+      display: inline-flex;
+      
+      color:rgb(20, 20, 255);
+      list-style: none;
+  }
+  .menu-bar ul li{
+      width:150px;
+      margin-right:180px;
+      padding-right: 0px;
+  }
+  .menu-bar ul li a{
+      text-decoration: none;
+      color:black;
+     
+  }
+
+   .menu-bar ul li:hover{
+      background-color: rgb(205, 205, 241);
+      padding:8px;
+      border-radius: 3px;
+      width:150px;
+      margin-left:-10px
+  }
+
+  .menu-bar .fa{
+    margin-left:12px;
+  }
+
+
+
+
+  
+  .sub-menu-1{
+      display: none;
+      width:180px;
+    
+  }
+
+  .menu-bar ul li:hover .sub-menu-1{
+      display: block;
+      position: absolute;
+      background-color:aqua;
+      margin-top: 5px;
+      margin-left: -10px;
+    
+      
+   
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul{
+      display: block;
+      margin:10px;
+     
+     
+  }
+
+  .menu-bar ul li:hover .sub-menu-1 ul li{
+      width: 170px;
+      padding:10px;
+      border-bottom: 1px dotted #fff;
+      background:transparent;
+      border-radius:0;
+      text-align: left;
+      
+  }
+
+  .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+      border-bottom: none;
+  }
+
+  .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:brown;
+  }
+ 
+
+  .first{
+      margin-left: 25%;
+      line-height: 40px;
+      text-align: justify;  
+      margin-right:10%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .first h1{
+      margin-left: -20%;
+  }
+  .img1{
+   
+    float: left;
+    overflow: auto;
+    margin-right:25px;
+}
+.some{
+    color:dodgerblue;
+    font-weight: 'bold';
+  
+    font-style: italic;
+}
+h3{
+    
+    color:dodgerblue;
+    font-style:normal;
+    margin-bottom: -20px;
+}
+.second{
+    background-color: rgb(54, 75, 115);
+    height:500px;
+    color:white;
+    padding-top: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.leftblock{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20%;
+    margin-right: 50%;
+}
+.img3{
+    margin: 20px 5px 20px 5px;
+    float: left;
+}
+.middleblock{
+margin-left: 55%;
+margin-top:-200px;
+
+  
+}
+.middleblock ul {
+   list-style-type: none;
+    line-height: 28px;
+   
+}
+.middlelinks ul li a{
+    text-decoration: none;
+    color:white ;
+    
+}
+.middlelinks .fa  {
+    margin-right:6px;
+}
+.bbv1{
+    margin-left: 25%;
+    line-height: 40px;
+    text-align: justify;  
+    margin-right:10%;
+    background-color: rgb(54, 75, 115);
+    color:white;
+    border-radius: 50px;
+    
+}
+.bbv1 h2{
+    margin-left: 350px;
+}
+.pone{
+  margin-top:30px;
+  margin-left: 160px;
+    font-size: 20px;
+    
+}
+.first h2{
+    color:dodgerblue;
+}
+.first ul{
+    list-style-type: circle;
+    
+}
+.first h4{
+    color:dodgerblue;
+}
+.images{
+    margin-left:23%;
+}
+.gal{
+    margin-left:50px;
+    margin-top:30px;
+    float:left;
+    width:400px;
+    height:300px;
+    overflow:hidden;
+}
+.ya h3{
+    margin:40px auto -10px 350px;
+    color:black
+}
+
+.hrclass{
+margin-left: 350px;
+margin-top: 0px;
+width:70px;
+
+}
+.forpdf{
+margin: 40px 30px 20px 350px;
+
+}
+
+#bhar1{
+
+ width:100%; 
+ height:100%
+}
+.route{
+   
+    display: inline;
+
+}
+
+.cont{
+    margin:30px auto 50px 350px;
+
+}
+.getpdf{
+background-color:rgb(65, 158, 158);
+width:700px;
+height:40px;
+padding: 20px 20px 50px 50px;
+margin-top: 20px;
+
+border:black dashed 2px;
+}
+.rmp{
+    display: inline;
+
+}
+.forRb{
+    margin:-50px auto auto 300px;
+    background-color: rgb(110, 199, 199);
+    font-size: 18px;
+    font-family: cursive;
+    border:whitesmoke 2px solid
+}
+.forRb:hover{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(160, 160, 53);
+    padding-right: 20px;
+}
+
+#fon1{
+display: inline;
+margin-left:45px;
+
+}
+.fonnames{
+margin-left:350px;
+padding-top:12px;
+background-color:rgb(54, 75, 115) ;
+height:45px;
+border-radius: 70px;
+
+}
+#fon2{
+    margin-left: 470px;
+}
+.fon1text{
+    display:none;
+    margin-top:20px;
+    line-height:30px;
+   margin-left:-350px;
+}
+#fon1:hover .fon1text{
+    display: block;
+}
+
+.fon2text{
+    display: none;
+   margin-left:-350px;
+    margin-top:20px;
+    line-height:30px;
+}
+#fon2:hover .fon2text{
+    display: block;
+    
+}
+
+.fonbuttons{
+    background-color: #0b5e69; 
+    border: blue;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width:35%;
+}
